@@ -87,7 +87,7 @@ comando se utiliza para cargar el contenido del repositorio local en un reposito
 
 **Uso de Git Push**
 **git push**  
-Empuje la rama especificada a remoto, junto con todos los objetos internos y confirmaciones necesarios
+Empuje la rama especificada a remoto, junto con todos los objetos internos y confirmaciones necesarios.
 
 **git push  --force**
 Igual que el comando anterior, pero fuerce el empuje incluso si resulta en una fusión sin avance rápido.
