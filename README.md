@@ -91,3 +91,12 @@ Empuje la rama especificada a remoto, junto con todos los objetos internos y con
 
 **git push  --force**
 Igual que el comando anterior, pero fuerce el empuje incluso si resulta en una fusión sin avance rápido.
+
+## Git Chechout
+
+Comando que sirve para volver a una version anterior de nuestro proyecto
+
+git checkout
+
+
+
