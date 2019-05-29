@@ -1,4 +1,3 @@
-
 # Guia_Git_GitHub
 
 ## ¿Qué es Git?
