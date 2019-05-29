@@ -24,41 +24,38 @@ Los puntos de alto nivel que cubrirá esta guía son:
 
 ## git init
 
-Para crear un nuevo repositorio, inserte git initcomando. git inites un comando que se usa una sola vez durante la configuración inicial de un nuevo repositorio. La ejecución de este comando creará un nuevo .gitsubdirectorio en su directorio de trabajo actual. Esto también creará una nueva rama maestra. 
-Primero irá cda la carpeta del proyecto raíz y luego ejecutará el git initcomando.
+Para crear un nuevo repositorio inserte git initcomando git inites un comando que se usa una sola vez durante la configuración inicial de un nuevo repositorio La ejecución de este comando creará un nuevo gitsubdirectorio en su directorio de trabajo actual Esto también creará una nueva
+rama maestra
 
- 
+Primero irá cda la carpeta del proyecto raíz y luego ejecutará el git initcomando
 
-git init
+/Guia_Git_GitHub$ git init
 
-## git clone
+### git clone
 
 Si un proyecto ya se ha configurado en un repositorio central, el comando de clonación es la forma más común para que los usuarios obtengan un clon de desarrollo local
 
 Guardar cambios en el repositorio: git add y git commit
 Ahora que tiene un repositorio clonado o inicializado, puede enviarle cambios en la versión del archivo
+ [/Guia_Git_GitHub$ git clone] (https://github.com/jmg31077/Guia_Git_GitHub.git)
 
-## pasos para ejecutar los comandos 
+### pasos para ejecutar un nuevo repositorio
 
-Cambiar directorios a /path/to/project
-Crea un nuevo archivo CommitTest.txtcon contenido ~ "prueba de contenido para git tutorial" ~
-git agregar CommitTest.txtal área de preparación del repositorio
-Cree una nueva confirmación con un mensaje que describa qué trabajo se realizó en la confirmación
-cd /path/to/project 
-echo "test content for git tutorial" >> CommitTest.txt 
-git add CommitTest.txt 
-git commit -m "added CommitTest.txt to the repo"
-Después de ejecutar este ejemplo, su repositorio ahora se habrá CommitTest.txtagregado al historial y hará un seguimiento de las actualizaciones futuras del archivo
+touch README.md
+git init
+git add README.md
+git commit -m "comentario"
+git remote add origin (https://github.com/jmg31077/Repositorio.git)
+git push -u origin master
 
 **git add**
 comando agrega un cambio en el directorio de trabajo al área de preparación
 
-
-## Git remote
+### Git remote
 
 El git remote comando le permite crear, ver y eliminar conexiones a otros repositorios
 
-## Configuraciones remotas de git
+### Configuraciones remotas de git
 
 **git remote**
 Listar las conexiones remotas que tiene con otros repositorios.
