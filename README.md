@@ -1,0 +1,96 @@
+# Guia_Git_GitHub
+
+## Qué es Git
+Git es un proyecto de **código abierto**, satisface las necesidades a la plazo de los usuarios regulares que realizan mejoras, **usabilidad y funcionalidad de un proyecto.**
+
+## Qué es GitHub
+
+Es un servicio en la nube que ayuda a almacenar mantener y administrar
+**nuestro código seguro** el cual lleva un registro y control de los cambios que se realiza a este código.
+
+## Beneficios del control de versiones
+
+Los sistemas de control de versiones son una categoría de herramientas de software que ayudan a un equipo de software a administrar los cambios en el código fuente a lo largo del tiempo.}
+
+El control de versiones protege el código fuente de la catástrofe y la degradación casual del error humano y las consecuencias no deseadas.
+
+Los puntos de alto nivel que cubrirá esta guía son:
+
+- Inicializando un nuevo repositorio de Git
+- Clonando un repositorio de Git existente
+- Confirmando una versión modificada de un archivo al repositorio.
+- Configurando un repositorio de Git para colaboración remota
+- Comandos comunes de control de versiones de Git
+
+## git init
+
+Para crear un nuevo repositorio, inserte git initcomando. git inites un comando que se usa una sola vez durante la configuración inicial de un nuevo repositorio. La ejecución de este comando creará un nuevo .gitsubdirectorio en su directorio de trabajo actual. Esto también creará una nueva rama maestra. 
+Primero irá cda la carpeta del proyecto raíz y luego ejecutará el git initcomando.
+
+ 
+
+git init
+
+## git clone
+
+Si un proyecto ya se ha configurado en un repositorio central, el comando de clonación es la forma más común para que los usuarios obtengan un clon de desarrollo local
+
+Guardar cambios en el repositorio: git add y git commit
+Ahora que tiene un repositorio clonado o inicializado, puede enviarle cambios en la versión del archivo
+
+## pasos para ejecutar los comandos 
+
+Cambiar directorios a /path/to/project
+Crea un nuevo archivo CommitTest.txtcon contenido ~ "prueba de contenido para git tutorial" ~
+git agregar CommitTest.txtal área de preparación del repositorio
+Cree una nueva confirmación con un mensaje que describa qué trabajo se realizó en la confirmación
+cd /path/to/project 
+echo "test content for git tutorial" >> CommitTest.txt 
+git add CommitTest.txt 
+git commit -m "added CommitTest.txt to the repo"
+Después de ejecutar este ejemplo, su repositorio ahora se habrá CommitTest.txtagregado al historial y hará un seguimiento de las actualizaciones futuras del archivo
+
+**git add**
+comando agrega un cambio en el directorio de trabajo al área de preparación
+
+
+## Git remote
+
+El git remote comando le permite crear, ver y eliminar conexiones a otros repositorios
+
+## Configuraciones remotas de git
+
+**git remote**
+Listar las conexiones remotas que tiene con otros repositorios.
+
+**git remote -v**
+Igual que el comando anterior, pero incluye la URL de cada conexión.
+
+## git fetch
+
+comando descarga confirmaciones, archivos y referencias de un repositorio remoto a su repositorio local.
+
+Git fetch comandos y opciones
+git fetch
+
+Recupera todas las ramas del repositorio. Esto también descarga todos los archivos y confirmaciones necesarios del otro repositorio
+
+**git fetch**
+Igual que el comando anterior, pero solo recupera la rama especificada.
+
+**git fetch --all**
+Un movimiento de poder que recupera todos los controles remotos registrados y sus ramas:
+
+**git fetch --dry-run**
+La --dry-run opción realizará una ejecución demo del comando
+
+## git push
+
+comando se utiliza para cargar el contenido del repositorio local en un repositorio remoto.
+
+**Uso de Git Push**
+**git push**  
+Empuje la rama especificada a remoto, junto con todos los objetos internos y confirmaciones necesarios
+
+**git push  --force**
+Igual que el comando anterior, pero fuerce el empuje incluso si resulta en una fusión sin avance rápido.
