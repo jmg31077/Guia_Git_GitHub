@@ -289,7 +289,7 @@ daniel@dquenallata:~/laravel-proyect$ git reset --hard origin/master
 daniel@dquenallata:~/laravel-proyect$ git checkout
  ```
 
-## Para Actualizar mi proyecto al ultimo Commit con Git
+## Actualizar mi proyecto al ultimo Commit con Git
 
 * Ejecutamos el siguiente comando.
 
