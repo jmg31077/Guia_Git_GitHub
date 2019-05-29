@@ -46,39 +46,44 @@ git init
 git add README.md
 git commit -m "comentario"
 git remote add origin (https://github.com/jmg31077/Repositorio.git)
-git push -u origin master
+git push -u origin master.
 
-**git add**
-comando agrega un cambio en el directorio de trabajo al área de preparación
+**/Guia_Git_GitHub$ git add**
+comando agrega un cambio en el directorio de trabajo al área de preparación.
+/Guia_Git_GitHub$ git add .
 
-### Git remote
+/Guia_Git_GitHub$ git add [nombre del archivo]
 
-El git remote comando le permite crear, ver y eliminar conexiones a otros repositorios
+**/Guia_Git_GitHub$ git diff**
+
+es un comando de Git de uso múltiple que cuando se ejecuta ejecuta una función diff en las fuentes de datos de Git.
+
+### Git remoto
+
+El git remoto comando le permite crear, ver y eliminar conexiones a otros repositorios.
 
 ### Configuraciones remotas de git
 
-**git remote**
 Listar las conexiones remotas que tiene con otros repositorios.
 
-**git remote -v**
+**/Guia_Git_GitHub$ git remote -v**
 Igual que el comando anterior, pero incluye la URL de cada conexión.
 
-## git fetch
+### git fetch
 
 comando descarga confirmaciones, archivos y referencias de un repositorio remoto a su repositorio local.
 
-Git fetch comandos y opciones
-git fetch
+/Guia_Git_GitHub$ git fetch
 
 Recupera todas las ramas del repositorio. Esto también descarga todos los archivos y confirmaciones necesarios del otro repositorio
 
-**git fetch**
+**/Guia_Git_GitHub$ git fetch**
 Igual que el comando anterior, pero solo recupera la rama especificada.
 
-**git fetch --all**
+**/Guia_Git_GitHub$ git fetch --all**
 Un movimiento de poder que recupera todos los controles remotos registrados y sus ramas:
 
-**git fetch --dry-run**
+**/Guia_Git_GitHub$ git fetch --dry-run**
 La --dry-run opción realizará una ejecución demo del comando
 
 ## git push
