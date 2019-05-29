@@ -61,11 +61,7 @@ El git remote comando le permite crear, ver y eliminar conexiones a otros reposi
 Listar las conexiones remotas que tiene con otros repositorios.
 
 **git remote -v**
-Igual que el comando anterior, pero incluye la URL de cada conexión.
-
-##/Guia_Git_GitHub$git fetch
-
-comando descarga confirmaciones, archivos y referencias de un repositorio remoto a su repositorio local.
+Igual que el comando anterior, pero incluye la URL de cada conexión
 
 ## git fetch
 
