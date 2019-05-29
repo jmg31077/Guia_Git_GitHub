@@ -24,14 +24,14 @@ Los puntos de alto nivel que cubrirá esta guía son:
 
 ## git init
 
-Para crear un nuevo repositorio inserte git initcomando git inites un comando que se usa una sola vez durante la configuración inicial de un nuevo repositorio La ejecución de este comando creará un nuevo gitsubdirectorio en su directorio de trabajo actual Esto también creará una nueva
+Para crear un nuevo repositorio inserte git init un comando que se usa una sola vez durante la configuración inicial de un nuevo repositorio La ejecución de este comando creará un nuevo gitsubdirectorio en su directorio de trabajo actual Esto también creará una nueva
 rama maestra
 
-Primero irá cda la carpeta del proyecto raíz y luego ejecutará el git initcomando
+Primero irá a la carpeta del proyecto raíz y luego ejecutará el git init
 
 **/Guia_Git_GitHub$ git init**
 
-### git clone
+## git clone
 
 Si un proyecto ya se ha configurado en un repositorio central, el comando de clonación es la forma más común para que los usuarios obtengan un clon de desarrollo local
 
