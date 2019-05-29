@@ -142,6 +142,10 @@ A continuación realizaremos un manual de ejemplos del uso de Git.
 
 ## Pasos para Clonar un Proyecto con Git (CLON)
 
+### Que es CLON?
+
+Clon en Git es la copia de un proyecto existente en la nube, se realiza para poder copiar proyectos y trabajar envase a estos.
+
 * Para empezar a trabajar con git debemos ubicarnos en la carpeta del donde se guardara el Proyecto (En este caso la carpeta es laravel-proyect)
 
 ```
@@ -167,6 +171,10 @@ daniel@dquenallata:~/laravel-proyec/Nombre_Proyecto$
 Ahora ya tenemos el proyecto Clonado en nuestro Equipo
 
 ## Pasos para Clonar un Proyecto con Git (FORK)
+
+### Que es FORK?
+
+Fork en Git es la copia exacta de un proyecto, se lo reliza para poder contribuir a un proyecto.
 
 * Realizamos un fork desde la pagina de Guit-Hub
 
@@ -230,3 +238,36 @@ daniel@dquenallata:~/laravel-proyect$ git remote add origin https://github.com/d
 
  ```
 daniel@dquenallata:~/laravel-proyect$ git push -U origin master
+ ```
+## Actualizar un repositorio para Contribuir un Proyecto
+
+* Tenemos que ubicarnos en la carpeta donde esta el proyecto(En este caso laravel-proyect)
+
+* Inicializar Git
+ ```
+daniel@dquenallata:~/laravel-proyect$ git init
+```
+* Para adicionar todos los cambios y archivos.
+
+ ```
+daniel@dquenallata:~/laravel-proyect$ git add .
+```
+
+* Para adicionar un archivo en especifico
+
+ ```
+daniel@dquenallata:~/laravel-proyect$ git add nombredelarchivo+extension
+```
+* A continuacion realizamos el commit a nuestros cambios
+
+ ```
+daniel@dquenallata:~/laravel-proyect$ git commit -m "Descripcion_del_Cambio"
+```
+
+* Y por ultimo subimos todo a la nube
+
+ ```
+daniel@dquenallata:~/laravel-proyect$ git push -U origin master
+ ```
+
+
