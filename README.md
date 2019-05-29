@@ -29,7 +29,7 @@ rama maestra
 
 Primero irá a la carpeta del proyecto raíz y luego ejecutará el git init
 
-**/Guia_Git_GitHub$ git init**
+## /Guia_Git_GitHub$ git init
 
 ## git clone
 
@@ -37,7 +37,7 @@ Si un proyecto ya se ha configurado en un repositorio central, el comando de clo
 
 Guardar cambios en el repositorio: git add y git commit
 Ahora que tiene un repositorio clonado o inicializado, puede enviarle cambios en la versión del archivo
- [/Guia_Git_GitHub$ git clone] (https://github.com/jmg31077/Guia_Git_GitHub.git)
+ /Guia_Git_GitHub$ git clone <https://github.com/jmg31077/Guia_Git_GitHub.git>
 
 ### pasos para ejecutar un nuevo repositorio
 
@@ -45,7 +45,7 @@ Ahora que tiene un repositorio clonado o inicializado, puede enviarle cambios en
 - git init
 - git add README.md
 - git commit -m "comentario"
-- git remote add origin (https://github.com/jmg31077/Repositorio.git)
+- git remote add origin <https://github.com/jmg31077/Repositorio.git>
 - git push -u origin master
 
 **git add**
@@ -79,18 +79,17 @@ La --dry-run opción realizará una ejecución demo del comando
 
 comando se utiliza para cargar el contenido del repositorio local en un repositorio remoto.
 
-**Uso de Git Push**
-**/Guia_Git_GitHub$git push**  
+**/Guia_Git_GitHub$git push**
 Empuje la rama especificada a remoto, junto con todos los objetos internos y confirmaciones necesarios.
 
 **/Guia_Git_GitHub$git push  --force**
 Igual que el comando anterior, pero fuerce el empuje incluso si resulta en una fusión sin avance rápido.
 
-## Git Chechout
+## git Chechout
 
 Comando que sirve para volver a una version anterior de nuestro proyecto
 
-Guia_Git_GitHub$git checkout
+## /Guia_Git_GitHub$ git checkout
 
 git checkout
 
