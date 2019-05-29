@@ -93,6 +93,15 @@ Comando que sirve para volver a una version anterior de nuestro proyecto
 
 git checkout
 
+## GitHub
+
+### Crear un repositorio
+
+![Imagen 1][1]  ![Imagen 2][2]
+
+ [1]: gh1.png
+ [2]: github1.png
+ 
 # Manual de Uso GIT by Edwin
 
 Para comprender mejor lo que son estas tecnologías primero repasaremos algunos conceptos básicos acerca de 
