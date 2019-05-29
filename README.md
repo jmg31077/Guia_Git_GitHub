@@ -269,5 +269,26 @@ daniel@dquenallata:~/laravel-proyect$ git commit -m "Descripcion_del_Cambio"
  ```
 daniel@dquenallata:~/laravel-proyect$ git push -U origin master
  ```
+* Una vez realizado todos estos pasos el autor debera de aceptar o rechazar los cambios realizados en la pagina de Git-Hub
+
+## Eliminar datos de un proyecto GIT
+
+* Verificamos todos los commits realizados.
+
+ ```
+daniel@dquenallata:~/laravel-proyect$ git log
+ ```
+
+* Reset Soft : Solo borra archivos del repositorio
+
+ ```
+daniel@dquenallata:~/laravel-proyect$ git reset --soft nombrearchivo+extension
+ ```
+* Reset Hard : Solo borra archivos del repositorio y del area de trabajo local
+
+ ```
+daniel@dquenallata:~/laravel-proyect$ git reset --hard nombrearchivo+extension
+ ```
+
 
 
