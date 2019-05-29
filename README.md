@@ -100,3 +100,133 @@ git checkout
 
 
 
+
+
+# Manual de Uso GIT by Edwin
+
+Para comprender mejor lo que son estas tecnologías primero repasaremos algunos conceptos básicos acerca de 
+
+## Rquerimientos
+
+* GIT
+
+## Intalar Git
+
+```
+sudo apt-get install git 
+```
+
+
+## Que es Git?
+
+
+Es un software que nos sirve para el control de versiones.
+
+
+## Que es control de version?
+
+
+Control de cambios o configuraciones de una Aplicacion o Pagina Web.
+
+
+## Ventajas de Git
+
+
+* Velocidad
+* Gestión distribuida
+* Gestión eficiente
+* Re almacenamiento periódico de paquetes.
+
+
+A continuación realizaremos un manual de ejemplos del uso de Git.
+
+## Pasos para Clonar un Proyecto con Git (CLON)
+
+* Para empezar a trabajar con git debemos ubicarnos en la carpeta del donde se guardara el Proyecto (En este caso la carpeta es laravel-proyect)
+
+```
+daniel@dquenallata:~/laravel-proyect$ 
+```
+ * Inicializar el Git
+
+ ```
+daniel@dquenallata:~/laravel-proyect$ git init
+```
+
+* Clonar el Proyecto
+
+```
+daniel@dquenallata:~/laravel-proyect$ git clone git://github.com/schacon/grit.git Nombre_Proyecto
+```
+* Ingresar al Proyecto 
+
+``` 
+daniel@dquenallata:~/laravel-proyect$ cd Nombre_Proyecto
+daniel@dquenallata:~/laravel-proyec/Nombre_Proyecto$
+```
+Ahora ya tenemos el proyecto Clonado en nuestro Equipo
+
+## Pasos para Clonar un Proyecto con Git (FORK)
+
+* Realizamos un fork desde la pagina de Guit-Hub
+
+Buscamos la pagina y a continuacion pulsamos en el boton fork, seguidamente ingresamos al proyecto que se creara en nuestra cuenta como contenedor y procedemos a clonar con los siguientes pasos.
+
+* Para empezar a trabajar con git debemos ubicarnos en la carpeta del donde se guardara el Proyecto al cual debemos contribuir  (En este caso la carpeta es laravel-proyect)
+
+```
+daniel@dquenallata:~/laravel-proyect$ 
+```
+ * Inicializar el Git
+
+ ```
+daniel@dquenallata:~/laravel-proyect$ git init
+```
+
+* Clonar el Proyecto
+
+```
+daniel@dquenallata:~/laravel-proyect$ git clone git://github.com/dequenallata/grit.git 
+```
+* Ingresar al Proyecto 
+
+``` 
+daniel@dquenallata:~/laravel-proyect$ cd grit
+daniel@dquenallata:~/laravel-proyec/grit$
+```
+Ahora ya tenemos el proyecto en nuestro equipo para poder contribuir a este proyecto.
+
+## Actualizar un repositorio Propio
+
+* Tenemos que ubicarnos en la carpeta donde esta el proyecto(En este caso laravel-proyect)
+
+* Inicializar Git
+ ```
+daniel@dquenallata:~/laravel-proyect$ git init
+```
+* Para adicionar todos los cambios y archivos.
+
+ ```
+daniel@dquenallata:~/laravel-proyect$ git add .
+```
+
+* Para adicionar un archivo en especifico
+
+ ```
+daniel@dquenallata:~/laravel-proyect$ git add nombredelarchivo+extension
+```
+* A continuacion realizamos el commit a nuestros cambios
+
+ ```
+daniel@dquenallata:~/laravel-proyect$ git commit -m "Descripcion_del_Cambio"
+```
+
+* Seguidamente adicionamos remotamente al proyecto.
+
+ ```
+daniel@dquenallata:~/laravel-proyect$ git remote add origin https://github.com/dequenallata/Guia_Git_GitHub.git
+```
+* Y por ultimo subimos todo a la nube
+
+ ```
+daniel@dquenallata:~/laravel-proyect$ git push -U origin master
