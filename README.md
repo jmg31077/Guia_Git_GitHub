@@ -1,6 +1,7 @@
 # Guia_Git_GitHub
 
 ## Qué es Git
+
 Git es un proyecto de **código abierto**, satisface las necesidades a la plazo de los usuarios regulares que realizan mejoras, **usabilidad y funcionalidad de un proyecto.**
 
 ## Qué es GitHub
@@ -10,7 +11,7 @@ Es un servicio en la nube que ayuda a almacenar mantener y administrar
 
 ## Beneficios del control de versiones
 
-Los sistemas de control de versiones son una categoría de herramientas de software que ayudan a un equipo de software a administrar los cambios en el código fuente a lo largo del tiempo.}
+Los sistemas de control de versiones son una categoría de herramientas de software que ayudan a un equipo de software a administrar los cambios en el código fuente a lo largo del tiempo.
 
 El control de versiones protege el código fuente de la catástrofe y la degradación casual del error humano y las consecuencias no deseadas.
 
@@ -53,7 +54,7 @@ comando agrega un cambio en el directorio de trabajo al área de preparación
 
 ### Git remote
 
-El git remote comando le permite crear, ver y eliminar conexiones a otros repositorios
+El git remote comando que permite crear, ver y eliminar conexiones a otros repositorios
 
 ### Configuraciones remotas de git
 
@@ -87,11 +88,9 @@ Igual que el comando anterior, pero fuerce el empuje incluso si resulta en una f
 
 ## git Chechout
 
-Comando que sirve para volver a una version anterior de nuestro proyecto
+El git checkoutcomando te permite navegar entre las ramas creadas por git branch. La verificación de una rama actualiza los archivos en el directorio de trabajo para que coincidan con la versión almacenada en esa rama
 
-## /Guia_Git_GitHub$ git checkout
-
-git checkout
+## /Guia_Git_GitHub$ git checkout master
 
 ## GitHub
 
@@ -101,8 +100,16 @@ git checkout
 
  [1]: gh1.png
  [2]: github1.png
- 
-# Manual de Uso GIT by Edwin
+
+## Issue
+
+es la unidad de trabajo designada para realizar una mejora en un Sistema informático. Un issue puede ser el arreglo de un fallo, una característica pedida, una tarea, una solicitud de Documentación en específico y todo tipo de solicitud al equipo de desarrollo
+
+## Milestone
+
+Estas son categorías que se utilizan en las issues para tener un filtro más adecuado de la información. Cada milestone puede tener una fecha programada indicando el tiempo que es necesario para cumplir cierta tarea.
+
+## Manual de Uso GIT by Edwin
 
 Para comprender mejor lo que son estas tecnologías primero repasaremos algunos conceptos básicos acerca de 
 
