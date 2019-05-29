@@ -285,4 +285,11 @@ daniel@dquenallata:~/laravel-proyect$ git reset --soft origin/master
  ```
 daniel@dquenallata:~/laravel-proyect$ git reset --hard origin/master
  ```
->>>>>>> 3cad362d68f626386db5f00b338d6ca7a891e6a3
+
+## Git Checkout
+
+* Sirve para volver a una version anterior
+
+ ```
+daniel@dquenallata:~/laravel-proyect$ git checkout
+ ```
