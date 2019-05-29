@@ -290,10 +290,18 @@ daniel@dquenallata:~/laravel-proyect$ git reset --soft origin/master
 daniel@dquenallata:~/laravel-proyect$ git reset --hard origin/master
  ```
 
-## Git Checkout
+## Volver a una version anterior de Nuestro Proyecto Git
 
-* Sirve para volver a una version anterior
+* Ejecutamos el siguiente comando.
 
  ```
 daniel@dquenallata:~/laravel-proyect$ git checkout
+ ```
+
+## Actualizar mi proyecto al ultimo Commit con Git
+
+* Ejecutamos el siguiente comando.
+
+ ```
+daniel@dquenallata:~/laravel-proyect$ git pull
  ```
