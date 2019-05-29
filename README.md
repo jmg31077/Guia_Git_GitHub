@@ -271,14 +271,14 @@ daniel@dquenallata:~/laravel-proyect$ git push -U origin master
 daniel@dquenallata:~/laravel-proyect$ git log
  ```
 
-* Reset Soft : Solo borra archivos del repositorio
+* Reset Soft : Solo borra archivos del repositorio 
 
  ```
-daniel@dquenallata:~/laravel-proyect$ git reset --soft nombrearchivo+extension
+daniel@dquenallata:~/laravel-proyect$ git reset --soft origin/master
  ```
-* Reset Hard : Solo borra archivos del repositorio y del area de trabajo local
+* Reset Hard : Solo borra archivos del repositorio y del area de trabajo local 
 
  ```
-daniel@dquenallata:~/laravel-proyect$ git reset --hard nombrearchivo+extension
+daniel@dquenallata:~/laravel-proyect$ git reset --hard origin/master
  ```
 >>>>>>> 3cad362d68f626386db5f00b338d6ca7a891e6a3
