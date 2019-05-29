@@ -29,7 +29,7 @@ rama maestra
 
 Primero irá cda la carpeta del proyecto raíz y luego ejecutará el git initcomando
 
-/Guia_Git_GitHub$ git init
+**/Guia_Git_GitHub$ git init**
 
 ### git clone
 
@@ -97,6 +97,3 @@ Igual que el comando anterior, pero fuerce el empuje incluso si resulta en una f
 Comando que sirve para volver a una version anterior de nuestro proyecto
 
 git checkout
-
-
-
